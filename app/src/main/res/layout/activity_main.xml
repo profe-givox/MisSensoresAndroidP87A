@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtSenLx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sensor de luz"
+         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtStepDetector"
+        android:text="Sensor Step Detector"
+        ></TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtProximidad"
+        android:text="Sensor de proximidad: "
+        ></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtacelero"
+        android:text="Sensor de acelerometro: "
+        ></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtorientacion"
+        android:text="Sensor de orientacion: "
+        ></TextView>
+
+
+</LinearLayout>
